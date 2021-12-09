@@ -1,0 +1,29 @@
+body {
+  margin: 0 !important;
+}
+.main-container {
+  background: #fafafa;
+  width: 250px;
+  height: 100px;
+  text-align: center;
+  padding: 1rem;
+}
+.user-info-card .user-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.user-content p {
+  font-size: 14px !important;
+}
+ul li {
+  text-transform: capitalize;
+}
+button {
+  background: #0a66c2;
+  color: #fff;
+  border-radius: 4px;
+  padding: 6px 12px;
+  border: 0 transparent;
+  cursor: pointer;
+}
